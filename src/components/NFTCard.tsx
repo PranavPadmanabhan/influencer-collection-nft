@@ -5,7 +5,7 @@ import { nftCard } from '../constants/types';
 
 function NFTCard({ url, name, price}:nftCard) {
   return (
-    <div className='relative flex flex-col items-center justify-start w-[75%] min-w-[250px] md:w-[65%] md:min-w-[220px] h-[50%] min-h-[350px] bg-gradient-to-b from-[#5F3A8E] to-[#00386C] my-5 snap-start rounded-[5%] p-[4%]'>
+    <div className='relative flex flex-col items-center justify-start w-[70%] min-w-[250px] md:w-[65%] md:min-w-[220px] h-[50%] min-h-[350px] bg-gradient-to-b from-[#5F3A8E] to-[#00386C] my-5 snap-start rounded-[5%] p-[4%] md:p-[3.2%]'>
         <img src={url} alt="" className='w-[100%] h-[70%] rounded-[5%]' />
         <h1 className={`self-start text-white ${name.length > 10?'text-[1.4rem]':'text-[1.5rem]'} my-[2%] font-semibold`}>{name}</h1>
         <span className="self-start text-white text-[1rem]">current : <strong className='text-[1.2rem]'>{price} ETH</strong></span>

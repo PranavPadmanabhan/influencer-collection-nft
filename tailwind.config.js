@@ -18,7 +18,7 @@ module.exports = {
       },
       boxShadow:{
         'button':'0px 19px 56px #FF8300',
-        'carousel-card':'14px 0px 25px 4px rgba(0, 0, 0, 0.46)'
+        'carousel-card':'14px 0px 25px 4px rgba(0, 0, 0, 0.46)',
       },
       backgroundImage:{
         'mesh':'url(/Assets/images/mesh.png)'
@@ -31,5 +31,7 @@ module.exports = {
     },
   },
   variants: {},
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar-hide')
+  ],
 }

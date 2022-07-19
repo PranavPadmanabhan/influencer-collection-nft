@@ -17,3 +17,9 @@ export type nftCard = {
     price:number | string,
     name:string
 }
+
+export type navBar = {
+    routeName:string,
+    route:string
+
+}

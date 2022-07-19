@@ -1,14 +1,24 @@
 import React, { useState } from 'react'
 import { FaBars } from 'react-icons/fa'
 import { BsXLg } from 'react-icons/bs'
+import { useRouter } from 'next/router';
 
 function NavBar() {
-
-  const [drawerIsOpen, setDrawerIsOpen] = useState(false)
+  
+  const router = useRouter()
+  const [drawerIsOpen, setDrawerIsOpen] = useState(false);
+  const navigate = () => {
+    if(router.pathname == '/'){
+      router.push('/')
+    }
+    else {
+      router.push('/')
+    }
+  }
 
   return (
     <header className={`fixed z-[1000] top-0 w-[100%] h-[10%] min-h-[8vh] max-h-[100px] sm:min-h-[10vh] bg-transparent flex items-center justify-end`}>
-      <span className="hidden sm:block text-white font-nav font-bold mr-6" >About Us</span>
+      <span onClick={navigate}  className="hidden sm:block text-white font-nav font-bold mr-6 cursor-pointer" >{router.pathname == '/'?'About Us':'Home'}</span>
       <button className={`hidden sm:block w-[12%] rounded-[10px]  h-[65%] min-w-[150px] min-h-[40px] max-h-[50px] bg-[#FF7F3F] shadow-button sm:text-[2vw] md:text-[1rem] text-black mx-[3%]`}>Connect Wallet</button>
       <FaBars onClick={() => setDrawerIsOpen(true)} className='flex sm:hidden m-[5%]' size={35} color={'#FF7F3F'}/>
       {
