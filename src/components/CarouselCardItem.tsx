@@ -9,7 +9,7 @@ type Item = {
 function CarouselCardItem({ url, style }:Item) {
   return (
     <div className='relative self-center flex flex-col items-center justify-center w-[100%] h-[100%]  min-h-[49vh] min-w-[90vw] mx-5 md:w-[50%] md:h-[70%] md:min-h-[50vh] min-w-[35vw]' style={style}>
-        <img src={url} alt="" className='absolute z-[100] top-0 left-[15%] sm:left-[25vw] w-[50%] max-w-[200px] sm:max-w-[250px] h-[65%] sm:h-[60%] md:h-[85%] md:top-[7%] rounded-[6%] shadow-carousel-card md:left-[2vw]' />
+        <img src={url} alt="" className='absolute z-[100] top-0 left-[13%] sm:left-[25vw] w-[50%] min-w-[200px] max-w-[200px] sm:max-w-[250px] h-[65%] sm:h-[60%] md:h-[85%] md:top-[7%] rounded-[6%] shadow-carousel-card md:left-[2vw]' />
         <div className='absolute top-[26vh] left-[25%] md:top-[37vh] sm:left-[31vw] md:left-[6vw] min-h-[100px] w-[65%] max-w-[250px] sm:max-w-[300px] md:w-[55%]  h-[40%] sm:h-[35%] md:h-[50%] shadow-carousel-card bg-gradient-to-r from-gradient-1 to-gradient-2 rounded-[5%] '>
             <div className="relative h-[100%] w-[100%] flex flex-col items-start justify-center">
                 <h1 className=' ml-2 mt-4 sm:text-[5vw] md:text-[2.5vw] font-card text-white text-[8vw]'>Elon Musk</h1>
