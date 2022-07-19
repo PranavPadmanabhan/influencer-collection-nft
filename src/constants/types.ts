@@ -11,3 +11,9 @@ export type bubble = {
 export type carouselCard = {
     url?:string
 }
+
+export type nftCard = {
+    url:string,
+    price:number | string,
+    name:string
+}
