@@ -29,7 +29,9 @@ import { FaLongArrowAltRight } from 'react-icons/fa'
   return (
     <div className="relative flex flex-col md:flex-row md:items-center md:justify-center bg-[#oooo] sm:bg-mesh md:bg-mesh bg-no-repeat bg-cover bg-center  h-screen w-[100%] items-center justify-center bg-[#000000] md:overflow-hidden box-border md:pt-0 pt-[14%]">
       <Head>
-        
+        <title>Influencer Collection NFT</title>
+        <meta name="description" content="Influencer Collection NFT" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       {/* <Bubble height={"10vw"} width={'10vw'} left={'20%'} top={'50%'} />
       <Bubble height={"10vw"} width={'10vw'} left={'80%'} top={'85%'} /> */}
