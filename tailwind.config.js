@@ -13,12 +13,15 @@ module.exports = {
       fontFamily:{
         'nav':[ 'Play', 'sans-serif'],
         'card':[ 'Happy Monkey', 'cursive'],
-        'henny-penny':['Henny Penny', 'cursive']
+        'henny-penny':['Henny Penny', 'cursive'],
+        'julius':[ 'Julius Sans One', 'sans-serif'],
+        'joti-one':['Joti One', 'cursive']
       
       },
       boxShadow:{
         'button':'0px 19px 56px #FF8300',
         'carousel-card':'14px 0px 25px 4px rgba(0, 0, 0, 0.46)',
+        'roadmap':'0px 4px 81px -12px #FF7F3F, inset 0px 4px 73px #000000'
       },
       backgroundImage:{
         'mesh':'url(/Assets/images/mesh.png)'

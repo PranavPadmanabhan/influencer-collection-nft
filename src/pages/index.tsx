@@ -59,7 +59,7 @@ import { useRouter } from "next/router"
           <span className="text-[#38E793] mr-2 text-[1.3rem] font-nav sm:text-[1.7rem] md:text-[1.4rem] cursor-pointer">Discover Now</span>
           <FaLongArrowAltRight className="cursor-pointer" size={24} color='#38E793' />
         </div>
-        <span className=" text-white text-[1.3rem] font-nav sm:text-[1.7rem] md:text-[1.4vw] cursor-pointer">Learn More</span>
+        <span onClick={() => router.push('/roadmap')} className=" text-white text-[1.3rem] font-nav sm:text-[1.7rem] md:text-[1.4vw] cursor-pointer">Learn More</span>
       </div>
       </section>
     </div>

@@ -26,8 +26,8 @@ function NavBar() {
           <div className="fixed z-[1000] w-[65%] min-h-[20%] rounded-[15px] top-2 right-0 bg-gradient-to-r from-[#BF5F2F] to-[#B7AEAE] flex flex-col">
             <BsXLg onClick={() => setDrawerIsOpen(false)}  className='self-end m-[5%]' size={35} color={'#FF7F3F'}/>
             <div className="flex flex-col items-start pl-[5%] mt-[3%] justify-start w-[100%] h-[100%]">
-              <span className="text-gray-900 ml-1 text-[1.5rem] mt-[2%] font-nav ">HOME</span>
-              <span className="text-gray-900 ml-1 text-[1.5rem] mt-[2%] font-nav ">ABOUT US</span>
+              <span onClick={() => router.push('/')} className="text-gray-900 ml-1 text-[1.5rem] mt-[2%] font-nav ">HOME</span>
+              <span onClick={() => router.push('/')} className="text-gray-900 ml-1 text-[1.5rem] mt-[2%] font-nav ">ABOUT US</span>
               <button className={` mt-3 w-[75%] rounded-[10px] h-[20%] min-h-[6vh] bg-[#FF7F3F] shadow-button text-black my-5`}>Connect Wallet</button>
             </div>
           </div>
