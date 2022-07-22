@@ -29,7 +29,23 @@ const AboutUs:NextPage = () => {
             </Head>
             <NavBar />
             <h1 className="text-white font-julius text-[2rem] md:text-[3rem] sm:mb-3">MEET OUR TEAM</h1>
-            <Slider3D  className={'bg-transparent '} clickable border={0} perspective={10} controlsVisible={true} height={400} width={300} items={data.map((item,index) => (<ProfileCard  key={index} url={item} />))} />
+            <Slider3D  
+            className={'bg-transparent '} 
+            clickable 
+            border={0} 
+            perspective={10} 
+            controlsVisible={true} 
+            height={400} 
+            width={300} 
+            items={
+              data.map((item,index) => (
+                <ProfileCard 
+                key={index} 
+                url={item} 
+                name={"Name"} 
+                position={"Developer"} />
+                ))} 
+            />
                 
         </div>
     )

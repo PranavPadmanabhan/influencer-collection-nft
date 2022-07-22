@@ -23,3 +23,9 @@ export type navBar = {
     route:string
 
 }
+
+export  type profileCard = {
+    url:string,
+    name:string,
+    position:string
+ }
