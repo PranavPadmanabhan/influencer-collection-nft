@@ -21,7 +21,8 @@ module.exports = {
       boxShadow:{
         'button':'0px 19px 56px #FF8300',
         'carousel-card':'14px 0px 25px 4px rgba(0, 0, 0, 0.46)',
-        'roadmap':'0px 4px 81px -12px #FF7F3F, inset 0px 4px 73px #000000'
+        'roadmap':'0px 4px 81px -12px #FF7F3F, inset 0px 4px 73px #000000',
+        'profile-card':'0px 11px 249px -9px rgba(255, 127, 63, 0.89)'
       },
       backgroundImage:{
         'mesh':'url(/Assets/images/mesh.png)'
