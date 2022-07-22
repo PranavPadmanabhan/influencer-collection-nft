@@ -1,4 +1,4 @@
-##[LIVE DEMO](http://influencer-collection-nft.vercel.app/)
+## [LIVE DEMO](http://influencer-collection-nft.vercel.app/)
 ## Getting Started
 Install dependencies:
 ```bash
