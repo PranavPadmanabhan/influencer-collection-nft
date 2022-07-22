@@ -5,6 +5,7 @@ import { useState } from "react";
 import ProfileCard from "../../components/ProfileCard";
 
 import { Slider3D } from 'react-slider-3d';
+import Bubble from "../../components/Bubble";
 
 
 
@@ -21,13 +22,14 @@ const AboutUs:NextPage = () => {
     
 
     return (
-        <div className="w-[100%] h-screen flex flex-col items-center justify-center bg-mesh-mobile sm:bg-mesh md:bg-mesh bg-no-repeat bg-center bg-cover ">
+        <div className="w-[100%] h-screen flex flex-col items-center justify-center bg-black sm:bg-mesh md:bg-mesh bg-no-repeat bg-center bg-cover ">
             <Head>
                 <title>About Us</title>
                 <meta name="description" content="About Us" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <NavBar />
+            <Bubble className={"flex sm:hidden md:hidden"} width={200} height={200} left={'25vw'} top={"36vh"} />
             <h1 className="text-white font-julius text-[2rem] md:text-[3rem] sm:mb-3">MEET OUR TEAM</h1>
             <Slider3D  
             className={'bg-transparent '} 

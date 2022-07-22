@@ -1,16 +1,18 @@
 import { NextPage } from "next";
 import Head from "next/head";
+import Bubble from "../../components/Bubble";
 import NavBar from "../../components/NavBar";
 
 const RoadMap:NextPage = () => {
     return (
-        <div className="relative h-screen w-[100%] flex flex-col items-center justify-start bg-mesh-mobile sm:bg-mesh md:bg-mesh bg-no-repeat bg-center bg-cover pt-[14%] md:pt-[5%]">
+        <div className="relative h-screen w-[100%] flex flex-col items-center justify-start bg-black sm:bg-mesh md:bg-mesh bg-no-repeat bg-center bg-cover pt-[14%] md:pt-[5%]">
             <Head>
                 <title>RoadMap</title>
                 <meta name="description" content="RoadMap" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <NavBar />
+            <Bubble className={"flex sm:hidden md:hidden"} width={200} height={200} left={'25vw'} top={"30vh"} />
             <h1 className="text-white text-[2rem] font-julius mb-4 md:text-[3rem] sm:mb-3">ROADMAP</h1>
                 <div className='absolute z-[100] top-[15%] md:left-[10%]  w-[75%] h-[12%] rounded-[10px] flex items-center justify-center bg-gradient-to-r from-[#583A8B] to-[#183B73] my-[5%] shadow-roadmap '>
                     <span className="text-white text-[0.7rem] font-joti-one text-center sm:text-[1rem]">Phase 1: LAUNCH OF SOCIAL MEDIA , DISCORD SERVER AND BEGINNING OF COMMUNITY CURATION </span>

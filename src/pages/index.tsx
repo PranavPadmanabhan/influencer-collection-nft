@@ -29,7 +29,7 @@ import { useRouter } from "next/router"
   },3000)
 
   return (
-    <div className="relative flex flex-col md:flex-row md:items-center md:justify-center bg-mesh-mobile sm:bg-mesh md:bg-mesh bg-no-repeat bg-cover bg-center  h-screen w-[100%] items-center justify-center bg-[#000000] md:overflow-hidden box-border md:pt-0 pt-[14%]">
+    <div className="relative flex flex-col md:flex-row md:items-center md:justify-center bg-black sm:bg-mesh md:bg-mesh bg-no-repeat bg-cover bg-center  h-screen w-[100%] items-center justify-center bg-[#000000] md:overflow-hidden box-border md:pt-0 pt-[14%]">
       <Head>
         <title>Influencer Collection NFT</title>
         <meta name="description" content="Influencer Collection NFT" />
@@ -37,6 +37,7 @@ import { useRouter } from "next/router"
       </Head>
       {/* <Bubble height={"10vw"} width={'10vw'} left={'20%'} top={'50%'} />
       <Bubble height={"10vw"} width={'10vw'} left={'80%'} top={'85%'} /> */}
+      <Bubble className={"flex md:hidden sm:hidden"} height={'20vh'} width={'20vh'} top={250} left={100} right={0} bottom={0} />
       <NavBar />
       <section className=" w-[100%] mb-2 h-[50%] flex flex-col items-center justify-center px-[5%] sm:h-[65%] md:flex-row md:w-[40%] md:h-[100%] md:justify-center">
         <div className="flex items-center w-[100vw] h-[50vh] justify-start md:w-[40vw] md:h-[70vh] md:pl-[15%]">
