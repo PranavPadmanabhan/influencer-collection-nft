@@ -4,7 +4,7 @@ import NavBar from "../../components/NavBar";
 
 const RoadMap:NextPage = () => {
     return (
-        <div className="relative h-screen w-[100%] flex flex-col items-center justify-start bg-mesh bg-no-repeat bg-center bg-cover pt-[14%] md:pt-[5%]">
+        <div className="relative h-screen w-[100%] flex flex-col items-center justify-start bg-mesh-mobile sm:bg-mesh md:bg-mesh bg-no-repeat bg-center bg-cover pt-[14%] md:pt-[5%]">
             <Head>
                 <title>RoadMap</title>
                 <meta name="description" content="RoadMap" />

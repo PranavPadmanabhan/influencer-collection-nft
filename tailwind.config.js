@@ -25,7 +25,8 @@ module.exports = {
         'profile-card':'0px 11px 249px -9px rgba(255, 127, 63, 0.89)'
       },
       backgroundImage:{
-        'mesh':'url(/Assets/images/mesh.png)'
+        'mesh':'url(/Assets/images/mesh.png)',
+        'mesh-mobile':'url(/Assets/images/mesh-mobile.png)'
       },
       screens: {
         'sm': '576px',  

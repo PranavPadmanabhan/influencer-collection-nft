@@ -14,14 +14,13 @@ const Mint:NextPage = () => {
       '/Assets/images/mesh.png',
     ])
     return (
-        <div className="relative flex flex-col h-screen w-[100%] items-center justify-start bg-black md:bg-mesh md:bg-no-repeat md:bg-center md:bg-cover  pt-[15%] box-border sm:pt-[10%] md:pt-[5%] ">
+        <div className="relative flex flex-col h-screen w-[100%] items-center justify-start bg-mesh-mobile md:bg-mesh md:bg-no-repeat md:bg-center md:bg-cover  pt-[15%] box-border sm:pt-[10%] md:pt-[5%] ">
             <Head>
                 <title>Mint Now</title>
                 <meta name="description" content="Mint Now" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <NavBar />
-            <Bubble className={"flex sm:hidden md:hidden"} width={200} height={200} left={'25vw'} top={"30vh"} />
             <h1 className="text-white font-julius text-[2rem] md:text-[3rem] sm:mb-3">MINT NOW</h1>
             <div className="z-[100] w-[100%] h-auto min-h-[60%] overflow-y-scroll flex flex-col items-center justify-start sm:grid sm:grid-cols-2 sm:place-content-start sm:place-items-center sm:gap-y-3 md:grid md:grid-cols-3 md:place-content-start md:place-items-center md:gap-y-5 snap-y snap-mandatory scroll-pt-9 pb-[10vh] scrollbar-hide">
                 <NFTCard url={data[0]} price={0.88} name={'Elon Musk'}/>

@@ -21,7 +21,7 @@ const AboutUs:NextPage = () => {
     
 
     return (
-        <div className="w-[100%] h-screen flex flex-col items-center justify-center bg-mesh bg-no-repeat bg-center bg-cover ">
+        <div className="w-[100%] h-screen flex flex-col items-center justify-center bg-mesh-mobile sm:bg-mesh md:bg-mesh bg-no-repeat bg-center bg-cover ">
             <Head>
                 <title>About Us</title>
                 <meta name="description" content="About Us" />
