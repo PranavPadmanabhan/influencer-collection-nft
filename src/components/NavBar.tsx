@@ -9,7 +9,7 @@ function NavBar() {
   const [drawerIsOpen, setDrawerIsOpen] = useState(false);
   const navigate = () => {
     if(router.pathname == '/'){
-      router.push('/')
+      router.push('/about')
     }
     else {
       router.push('/')
